@@ -61,10 +61,10 @@
     <Compile Include="Assets\Scripts\UIScripts\GoToNextDay.cs" />
     <Compile Include="Assets\Scripts\HubWorld\UI_Hub_LocationBtn.cs" />
     <Compile Include="Assets\Scripts\UIScripts\Test.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\StringOfMessages.cs" />
     <Compile Include="Assets\Scripts\UIScripts\Player.cs" />
     <Compile Include="Assets\Art\Sprites\MiniGames\DoYouEvenLift_Minigame.cs" />
     <Compile Include="Assets\Scripts\UIScripts\IntelligenceBar.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\StringOfMessages.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro.cginc" />
