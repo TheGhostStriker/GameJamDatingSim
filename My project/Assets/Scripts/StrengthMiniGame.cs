@@ -128,10 +128,10 @@ public class StrengthMiniGame : MonoBehaviour
         if (comboCurrent >= 7)
         {
             levelUp.gameObject.SetActive(true);
-            Attributes.IncreaseIntelligence();
+            
         }
 
-
+        Attributes.IncreaseIntelligence();
         active = false;
         if (onFinish != null) onFinish.Invoke();
     }

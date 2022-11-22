@@ -986,21 +986,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 894.83386, y: -329.35193}
+  scrollPos: {x: 953.10645, y: 395.27695}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 0.97
   scrollViewRect:
     serializedVersion: 2
     x: -810.0176
     y: -920.02234
     width: 1939.0176
     height: 2009.5223
-  selectedBlocks:
-  - {fileID: 1831099653}
-  selectedCommands:
-  - {fileID: 1831099665}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1831099569}
   - {fileID: 1831099662}
@@ -1051,7 +1049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 142.97661
     y: -455.6232
-    width: 74.99999
+    width: 75.77319
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1082,7 +1080,7 @@ MonoBehaviour:
   storyText: Sorry I'm late! I know you made the reservations and everything!
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1109,7 +1107,7 @@ MonoBehaviour:
   storyText: Please forgive me!
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1156,7 +1154,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 262.503
     y: -399.2283
-    width: 162.1951
+    width: 165.46391
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1185,7 +1183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -21.497086
     y: -398.72827
-    width: 123.170715
+    width: 126.28866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1263,7 +1261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 141.87053
     y: -516.68884
-    width: 77.43902
+    width: 77.83505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1291,7 +1289,7 @@ MonoBehaviour:
   storyText: Okay that was cringe so now we're even.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1318,7 +1316,7 @@ MonoBehaviour:
   storyText: What a sweetie.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1346,7 +1344,7 @@ MonoBehaviour:
     I got a couple more. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1372,7 +1370,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114.50302
     y: -349.72824
-    width: 133.53656
+    width: 139.69072
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1447,7 +1445,7 @@ MonoBehaviour:
   storyText: What would you say your love language would be?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1473,7 +1471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 82.50302
     y: -263.6973
-    width: 120.12193
+    width: 122.16495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1501,7 +1499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 202.50305
     y: -264.72827
-    width: 101.2195
+    width: 103.608246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1531,7 +1529,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -80.49704
     y: -264.72827
-    width: 162.80486
+    width: 165.46391
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1557,9 +1555,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 305.5033
-    y: -264.72824
-    width: 134.14633
+    x: 337.46204
+    y: -260.60455
+    width: 137.62886
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1750,7 +1748,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.35338
     y: -160.08397
-    width: 133.53656
+    width: 137.1134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1837,8 +1835,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: That's kind of really sweet dude.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 318889166}
+  portrait: {fileID: 21300000, guid: 1daa5926742c76a439b9f964e5a08bd4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1864,7 +1862,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 82.184654
     y: -88.23042
-    width: 198.1707
+    width: 201.54639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1893,7 +1891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -72.61273
     y: -24.702248
-    width: 145.73169
+    width: 149.48453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1992,7 +1990,7 @@ MonoBehaviour:
   storyText: Aaaaaand you immediately ruined it. Smooth.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2276,7 +2274,7 @@ MonoBehaviour:
   storyText: Shut up.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1daa5926742c76a439b9f964e5a08bd4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2369,7 +2367,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 298.5694
     y: -24.52919
-    width: 157.9268
+    width: 161.34021
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2506,7 +2504,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 468.7248
     y: 79.954056
-    width: 196.95119
+    width: 199.48453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2534,7 +2532,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 167.22891
     y: 79.688194
-    width: 120.73169
+    width: 124.74226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2614,7 +2612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.69586
     y: 79.78719
-    width: 83.536575
+    width: 85.051544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2774,7 +2772,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 334.2744
     y: 188.37663
-    width: 93.29268
+    width: 93.81443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2861,7 +2859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 307.67905
     y: 268.88562
-    width: 144.51218
+    width: 149.48453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2890,7 +2888,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 488.80624
     y: 269.8751
-    width: 83.536575
+    width: 86.08247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2919,7 +2917,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196.15904
     y: 268.389
-    width: 82.92682
+    width: 84.020615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3151,7 +3149,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 590.0964
     y: 270.4536
-    width: 139.63412
+    width: 140.72165
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3302,7 +3300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 543.9318
     y: 390.90375
-    width: 109.14633
+    width: 110.82474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3330,7 +3328,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255.69173
     y: 387.3859
-    width: 101.2195
+    width: 103.09278
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3401,7 +3399,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 394.4732
     y: 505.372
-    width: 96.95121
+    width: 98.96907
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

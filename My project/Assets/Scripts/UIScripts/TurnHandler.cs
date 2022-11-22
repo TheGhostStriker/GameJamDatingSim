@@ -27,6 +27,8 @@ public class TurnHandler : MonoBehaviour
     {
         foreach (Button b in buttons) b.enabled = true;
 
+        if (!firstTimeOpening && daysUntilDate != 0) AdvanceDay();
+
         if (daysUntilDate == 0)
         {
             daysUntilDate = initialDaysUntilDate;
@@ -48,7 +50,7 @@ public class TurnHandler : MonoBehaviour
         GenerateTexts();
         
 
-        if (!firstTimeOpening) AdvanceDay();
+        
 
         firstTimeOpening = false;
 
@@ -87,7 +89,6 @@ public class TurnHandler : MonoBehaviour
 
         if (!firstDate)
         {
-            daysUntilDate = 5;
             firstDate = true;
             SceneManager.LoadScene("Blake - Cafe");
         }
