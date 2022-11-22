@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CreditsScene.unity
     guid: 72ee42d6df2eb3c4cbf3373d6db4e9d3
+  - enabled: 1
+    path: Assets/Scenes/Blake - Aquarium.unity
+    guid: b9747bff4855df84187b4de883d3ca76
+  - enabled: 1
+    path: Assets/Scenes/Blake - Beach.unity
+    guid: fc3404df046c0804c955c39976a52f64
+  - enabled: 1
+    path: Assets/Scenes/Blake - Hub.unity
+    guid: ce3633a8aafc95844b7c4c88113449aa
+  - enabled: 1
+    path: Assets/Scenes/Blake - Restaurant.unity
+    guid: 3c6f2fb17ca78cf419f1161b6d9598e5
   m_configObjects: {}

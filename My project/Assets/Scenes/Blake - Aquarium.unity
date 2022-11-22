@@ -299,7 +299,17 @@ MonoBehaviour:
   nameText: Iris
   nameColor: {r: 0.9254902, g: 0.48235294, b: 0.19607843, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
+  - {fileID: 21300000, guid: b08623c1746468747bae32041292338b, type: 3}
+  - {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
+  - {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
+  - {fileID: 21300000, guid: 1daa5926742c76a439b9f964e5a08bd4, type: 3}
+  - {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
+  - {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
+  - {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
+  - {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
+  - {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -822,8 +832,6 @@ GameObject:
   - component: {fileID: 1831099567}
   - component: {fileID: 1831099568}
   - component: {fileID: 1831099578}
-  - component: {fileID: 1831099576}
-  - component: {fileID: 1831099574}
   - component: {fileID: 1831099573}
   - component: {fileID: 1831099608}
   - component: {fileID: 1831099607}
@@ -944,7 +952,6 @@ GameObject:
   - component: {fileID: 1831099691}
   - component: {fileID: 1831099690}
   - component: {fileID: 1831099701}
-  - component: {fileID: 1831099700}
   - component: {fileID: 1831099699}
   - component: {fileID: 1831099698}
   - component: {fileID: 1831099697}
@@ -975,6 +982,7 @@ GameObject:
   - component: {fileID: 1831099704}
   - component: {fileID: 1831099721}
   - component: {fileID: 1831099722}
+  - component: {fileID: 1831099723}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1009,19 +1017,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 997.28595, y: 433.42697}
+  scrollPos: {x: 912.3894, y: 721.05554}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -810.0176
     y: -920.02234
     width: 1939.0176
     height: 2009.5223
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1831099608}
+  selectedCommands:
+  - {fileID: 1831099600}
   variables:
   - {fileID: 1831099569}
   - {fileID: 1831099662}
@@ -1116,7 +1126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116.086334
     y: -396.84073
-    width: 123.40425
+    width: 121.9512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1150,31 +1160,6 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1831099574
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831099566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  duration: 3
-  fadeOut: 1
-  targetView: {fileID: 0}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
-  fadeTweenType: 4
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &1831099575
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1191,7 +1176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.173836
     y: -400.31766
-    width: 110.63829
+    width: 109.14633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1204,26 +1189,6 @@ MonoBehaviour:
   - {fileID: 1831099579}
   - {fileID: 1831099584}
   suppressAllAutoSelections: 0
---- !u!114 &1831099576
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831099566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10cd462c89cb047158ccfb8a8df3f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  spriteRenderer: {fileID: 0}
-  _visible:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  affectChildren: 1
-  visibleOLD: 0
 --- !u!114 &1831099577
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1238,9 +1203,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 266.62064
+    x: 268.62064
     y: -399.29636
-    width: 117.02127
+    width: 115.24389
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1269,7 +1234,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.87053
     y: -516.68884
-    width: 77.65958
+    width: 77.43902
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1278,8 +1243,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1831099654}
   commandList:
-  - {fileID: 1831099576}
-  - {fileID: 1831099574}
   - {fileID: 1831099573}
   suppressAllAutoSelections: 0
 --- !u!114 &1831099579
@@ -1299,7 +1262,7 @@ MonoBehaviour:
   storyText: Of course you'd say that.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1326,7 +1289,7 @@ MonoBehaviour:
   storyText: Well hopefully you didn't wait too long.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1353,7 +1316,7 @@ MonoBehaviour:
   storyText: 'Perfect then. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1442,7 +1405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130.54855
     y: -341.102
-    width: 94.14893
+    width: 93.29268
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1471,7 +1434,7 @@ MonoBehaviour:
   storyText: Let's go!
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1498,7 +1461,7 @@ MonoBehaviour:
   storyText: 'There''s so many pretty fish swimming around. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1524,7 +1487,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.87655
     y: -275.19635
-    width: 107.97872
+    width: 107.31706
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1558,7 +1521,7 @@ MonoBehaviour:
   storyText: 'So many pretty colours. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1585,7 +1548,7 @@ MonoBehaviour:
   storyText: Hey, that fish right there. The reddish one. What's that called?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1611,7 +1574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -5.7338095
     y: -207.64735
-    width: 100
+    width: 98.78048
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1659,7 +1622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.03445
     y: -207.41573
-    width: 89.361694
+    width: 88.41463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1688,7 +1651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130.54648
     y: -208.85472
-    width: 93.0851
+    width: 92.073166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1815,8 +1778,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Wow you really know you stuff. '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 318889166}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1868,7 +1831,7 @@ MonoBehaviour:
   storyText: 'Yeah I''m not so sure about that one chief. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1895,7 +1858,7 @@ MonoBehaviour:
   storyText: Good guess but I can see the sign saying its an Arowana
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1985,7 +1948,7 @@ MonoBehaviour:
   storyText: Say, got any good fish jokes?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2012,7 +1975,7 @@ MonoBehaviour:
   storyText: Heyyy {$CharName}, I hope you weren't waiting too long for me.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2038,7 +2001,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.84517
     y: -449.0987
-    width: 75.53191
+    width: 74.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2069,7 +2032,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 138.02856
     y: -137.26419
-    width: 77.65958
+    width: 76.82926
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2103,7 +2066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -37.907608
     y: -68.24298
-    width: 156.91489
+    width: 154.87802
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2477,7 +2440,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 237.78055
     y: -66.457214
-    width: 96.8085
+    width: 95.7317
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2532,7 +2495,7 @@ MonoBehaviour:
   storyText: Where?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2559,7 +2522,7 @@ MonoBehaviour:
   storyText: A river bank? OHHH A RIVER BANK.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2585,7 +2548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -33.21945
     y: 11.542786
-    width: 148.93616
+    width: 146.9512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2616,7 +2579,7 @@ MonoBehaviour:
   storyText: Not bad {$CharName}.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2821,7 +2784,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 94.78055
     y: 82.542786
-    width: 169.68085
+    width: 168.29266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2883,7 +2846,7 @@ MonoBehaviour:
   storyText: That's okay, it was a pretty sudden request after all.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2929,7 +2892,7 @@ MonoBehaviour:
   storyText: Woah. I mean at least you tried but thats way, WAY off.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2974,7 +2937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 324.39917
     y: 178.1508
-    width: 124.99999
+    width: 123.78047
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3003,7 +2966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 181.09996
     y: 179.18181
-    width: 139.89362
+    width: 137.80487
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3033,7 +2996,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.770157
     y: 179.24362
-    width: 138.82977
+    width: 136.58536
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3062,7 +3025,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -118.80707
     y: 179.65605
-    width: 145.74467
+    width: 143.29266
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3192,7 +3155,7 @@ MonoBehaviour:
   storyText: Just. {w=1} Just shut up.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3219,7 +3182,7 @@ MonoBehaviour:
   storyText: That was still a really good guess though!
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3246,7 +3209,7 @@ MonoBehaviour:
   storyText: Oooooh, so close. 50 million years is the answer you're looking for.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3274,7 +3237,7 @@ MonoBehaviour:
     too.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3384,7 +3347,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.74376
     y: 275.76556
-    width: 148.93616
+    width: 146.9512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3414,7 +3377,7 @@ MonoBehaviour:
   storyText: Hey can I ask you something random?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3505,7 +3468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 246.17111
     y: 339.4851
-    width: 65.95744
+    width: 65.85365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3536,7 +3499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 43.09671
     y: 341.2779
-    width: 70.74468
+    width: 70.731705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3628,7 +3591,7 @@ MonoBehaviour:
   storyText: I guess.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3655,7 +3618,7 @@ MonoBehaviour:
   storyText: That's okay, its you're choice at the end of the day.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3682,7 +3645,7 @@ MonoBehaviour:
   storyText: Oh.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3708,7 +3671,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 94.68512
     y: 434.0061
-    width: 88.82979
+    width: 87.80487
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3753,7 +3716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -244.75795
     y: 438.0876
-    width: 87.23404
+    width: 85.9756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3782,7 +3745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -143.7578
     y: 437.0877
-    width: 108.510635
+    width: 107.92682
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3811,7 +3774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.2306824
     y: 433.09674
-    width: 68.085106
+    width: 67.68292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3941,7 +3904,7 @@ MonoBehaviour:
   storyText: What do you think is the most important thing in life?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3968,7 +3931,7 @@ MonoBehaviour:
   storyText: Of course. That's so you to say.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4037,7 +4000,7 @@ MonoBehaviour:
   storyText: 'Honestly, forget I asked. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4063,7 +4026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 12.766968
     y: 526.8341
-    width: 170.74467
+    width: 167.68289
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4092,7 +4055,7 @@ MonoBehaviour:
   storyText: I don't know about that.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4119,7 +4082,7 @@ MonoBehaviour:
   storyText: 'Money? I suppose its really important but the {i}most{i} important? '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4188,7 +4151,7 @@ MonoBehaviour:
   storyText: So cliche but when you're right, you're right.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4215,7 +4178,7 @@ MonoBehaviour:
   storyText: 'Aww that''s really sweet of you. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4244,7 +4207,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4270,7 +4233,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -202.51659
     y: 530.57947
-    width: 119.14893
+    width: 117.682915
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4298,7 +4261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.467316
     y: 656.4332
-    width: 103.723404
+    width: 102.43901
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4328,7 +4291,7 @@ MonoBehaviour:
   storyText: 'I enjoyed the aquarium but, well, yeah I don''t know. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4354,7 +4317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.20694
     y: 594.4394
-    width: 100
+    width: 98.78048
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4488,7 +4451,7 @@ MonoBehaviour:
   storyText: See you next time, {$CharName}.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4515,7 +4478,7 @@ MonoBehaviour:
   storyText: 'I''ll make sure to pick somewhere nice for our next date. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1daa5926742c76a439b9f964e5a08bd4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4542,34 +4505,7 @@ MonoBehaviour:
   storyText: 'Hey, I had a really good date with you today. I''m glad we came. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1831099700
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831099566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 184
-  indentLevel: 0
-  storyText: 'I enjoyed the aquarium but, well, yeah I don''t know. '
-  description: 
-  character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4595,7 +4531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -150.52873
     y: 594.7661
-    width: 107.97872
+    width: 106.707306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4604,7 +4540,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1831099700}
   - {fileID: 1831099699}
   - {fileID: 1831099698}
   - {fileID: 1831099694}
@@ -5461,6 +5396,19 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 2
   durationOLD: 0
+--- !u!114 &1831099723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831099566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac72cc5e262df3488244f2990f82e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowChart: {fileID: 1831099568}
 --- !u!224 &2082548125 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 60195360913281896, guid: f91118c89883dd343974a611aa7e5015, type: 3}
