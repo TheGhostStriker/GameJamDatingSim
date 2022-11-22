@@ -121,6 +121,7 @@ public class ComedyMiniGame : MonoBehaviour
             statText.text = $"{t}%";
             if (t > 80)
             {
+                charismaLevelUp.gameObject.SetActive(true);
                 statText.GetComponent<Animator>().Play("Flashing");
                 //Add charisma
             }
