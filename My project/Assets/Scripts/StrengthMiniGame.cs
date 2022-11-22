@@ -158,11 +158,14 @@ public class StrengthMiniGame : MonoBehaviour
         accelerationTarget = 0;
     }
 
+<<<<<<< Updated upstream
     public void TimedActivate()
     {
 
     }
 
+=======
+>>>>>>> Stashed changes
     public void Activate()
     {
         active = true;

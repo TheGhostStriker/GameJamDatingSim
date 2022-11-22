@@ -74,7 +74,20 @@
     <Compile Include="Assets\Art\Sprites\MiniGames\DoYouEvenLift_Minigame.cs" />
     <Compile Include="Assets\Scripts\UIScripts\AffectAffection.cs" />
     <Compile Include="Assets\Scripts\UIScripts\IntelligenceBar.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\StrengthMiniGame.cs" />
+=======
+    <Compile Include="Assets\Scripts\ComedyLineKeeper.cs" />
+    <Compile Include="Assets\Scripts\ComedyMiniGame.cs" />
+    <Compile Include="Assets\Scripts\MoneyMiniGame.cs" />
+    <Compile Include="Assets\Scripts\ComedyTextPopup.cs" />
+    <Compile Include="Assets\Scripts\ComedyLineBacking.cs" />
+    <Compile Include="Assets\Scripts\StrengthMiniGame.cs" />
+    <Compile Include="Assets\Scripts\ShotTrail.cs" />
+    <Compile Include="Assets\Scripts\CameraShake.cs" />
+    <Compile Include="Assets\Scripts\FadeIn.cs" />
+    <Compile Include="Assets\Scripts\FadeOut.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro.cginc" />
