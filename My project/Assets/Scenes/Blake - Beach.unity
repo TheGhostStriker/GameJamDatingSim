@@ -299,7 +299,17 @@ MonoBehaviour:
   nameText: Iris
   nameColor: {r: 0.9254902, g: 0.48235294, b: 0.19607843, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
+  - {fileID: 21300000, guid: b08623c1746468747bae32041292338b, type: 3}
+  - {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
+  - {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
+  - {fileID: 21300000, guid: 1daa5926742c76a439b9f964e5a08bd4, type: 3}
+  - {fileID: 21300000, guid: 1afa03d4b448a4647af9c93acebf3d7f, type: 3}
+  - {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
+  - {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
+  - {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
+  - {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -932,7 +942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1339.5244, y: 372.2716}
+  scrollPos: {x: 1198.615, y: 567.72595}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -943,8 +953,10 @@ MonoBehaviour:
     y: -920.02234
     width: 1939.0176
     height: 2009.5223
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1831099579}
+  selectedCommands:
+  - {fileID: 1831099582}
   variables:
   - {fileID: 1831099569}
   - {fileID: 1831099662}
@@ -1263,7 +1275,7 @@ MonoBehaviour:
   storyText: Sooo, what do you think?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
+  portrait: {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1309,7 +1321,7 @@ MonoBehaviour:
   storyText: Haaaaa, yeah I should've seen that coming
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1989,7 +2001,7 @@ MonoBehaviour:
   storyText: '{$CharName}! Over here!'
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

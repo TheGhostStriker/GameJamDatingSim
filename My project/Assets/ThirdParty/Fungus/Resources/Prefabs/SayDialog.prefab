@@ -721,10 +721,10 @@ RectTransform:
   m_Father: {fileID: 9077413837234549071}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.78700006}
-  m_AnchoredPosition: {x: 3, y: 14.130005}
-  m_SizeDelta: {x: -61, y: -63}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -703, y: -21.869995}
+  m_SizeDelta: {x: 1290.7, y: 201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9077413837234737141
 CanvasRenderer:
@@ -885,6 +885,7 @@ GameObject:
   - component: {fileID: 9077413837215207959}
   - component: {fileID: 9077413837215147309}
   - component: {fileID: 9077413837220419953}
+  - component: {fileID: 6339432493842770461}
   m_Layer: 5
   m_Name: SayDialog
   m_TagString: Untagged
@@ -1009,7 +1010,7 @@ MonoBehaviour:
   storyText: {fileID: 9077413837215160459}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 9077413837215179865}
-  fitTextWithImage: 1
+  fitTextWithImage: 0
   closeOtherDialogs: 0
 --- !u!114 &9077413837215158613
 MonoBehaviour:
@@ -1166,6 +1167,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &6339432493842770461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9077413837220706285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80acef875ccb37f46a80b26ed144270f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  formTwo: {fileID: 2112496766447242439}
+  formThree: {fileID: 2112496766708601901}
+  formThreeLegs: {fileID: 2112496765176320551}
 --- !u!1 &9077413837220706287
 GameObject:
   m_ObjectHideFlags: 0
