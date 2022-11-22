@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\UIScripts\IntelligenceBar.cs" />
     <Compile Include="Assets\Scripts\UIScripts\CreditScene.cs" />
     <Compile Include="Assets\Scripts\UIScripts\IntroductionSequence.cs" />
+    <Compile Include="Assets\Scripts\Fish_MiniGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro.cginc" />
