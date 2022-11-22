@@ -56,12 +56,28 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Scripts\GoToNextDay.cs" />
+    <Compile Include="Assets\Scripts\HubWorld\UI_Hub_LocationBtn.cs" />
+    <Compile Include="Assets\Scripts\Test.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Art\Sprites\MiniGames\DoYouEvenLift_Minigame.cs" />
+    <Compile Include="Assets\Scripts\IntelligenceBar.cs" />
+=======
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\IntelligenceBar.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GoToNextDay.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Scripts\TweenPhoneInAndOut.cs" />
+<<<<<<< Updated upstream
+=======
+>>>>>>> 2b30927412e06bd561445958b5e31c967c5ae3f6
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -750,18 +766,50 @@
       <Project>{24EB482B-AA61-4045-09EE-B1F924A82A55}</Project>
       <Name>Fungus</Name>
     </ProjectReference>
-    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{A51A4A21-25EC-165A-8767-417B9145F70C}</Project>
-      <Name>Fungus.LineEndingsEditor</Name>
-    </ProjectReference>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
     <ProjectReference Include="FungusEditor.csproj">
       <Project>{B3F1895D-2DCD-E0C2-289F-EB6FCA2BB5AD}</Project>
       <Name>FungusEditor</Name>
     </ProjectReference>
+    <ProjectReference Include="Fungus.UsfxrEditor.csproj">
+      <Project>{79B079BD-0EB1-0DD2-42FC-A70C1D2E151D}</Project>
+      <Name>Fungus.UsfxrEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
+      <Project>{C4D95522-09C7-E514-852B-7DDF9383531F}</Project>
+      <Name>Fungus.FungusLuaJSONCheckerEditor</Name>
+    </ProjectReference>
+=======
+>>>>>>> 2b30927412e06bd561445958b5e31c967c5ae3f6
+>>>>>>> Stashed changes
+    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
+      <Project>{A51A4A21-25EC-165A-8767-417B9145F70C}</Project>
+      <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+    <ProjectReference Include="FungusEditor.csproj">
+      <Project>{B3F1895D-2DCD-E0C2-289F-EB6FCA2BB5AD}</Project>
+      <Name>FungusEditor</Name>
+    </ProjectReference>
+<<<<<<< Updated upstream
+=======
+>>>>>>> 2b30927412e06bd561445958b5e31c967c5ae3f6
+>>>>>>> Stashed changes
     <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
       <Project>{B65CD506-C7E2-9502-08BA-89692BE00DF6}</Project>
       <Name>Fungus.FungusLuaEditor</Name>
     </ProjectReference>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
       <Project>{C4D95522-09C7-E514-852B-7DDF9383531F}</Project>
       <Name>Fungus.FungusLuaJSONCheckerEditor</Name>
@@ -770,6 +818,10 @@
       <Project>{79B079BD-0EB1-0DD2-42FC-A70C1D2E151D}</Project>
       <Name>Fungus.UsfxrEditor</Name>
     </ProjectReference>
+<<<<<<< Updated upstream
+=======
+>>>>>>> 2b30927412e06bd561445958b5e31c967c5ae3f6
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
