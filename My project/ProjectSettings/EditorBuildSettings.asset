@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Clinton.unity
     guid: c44348c86f031914087c14b99a2836ae
+  - enabled: 1
+    path: Assets/Scenes/Blake - Aquarium.unity
+    guid: b9747bff4855df84187b4de883d3ca76
+  - enabled: 1
+    path: Assets/Scenes/Blake - Cafe.unity
+    guid: d1a7b571399e60a41a66f7e547e88890
   m_configObjects: {}
