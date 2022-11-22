@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
 
     public void AddIntelligence()
     {
-        intelligence += Mathf.Min(Random.value, intelligence + 2);
+        intelligence += 1;//Mathf.Min(Random.value, intelligence + 2);
         intelligenceBar.IntelligenceBarUpdate();
         
         
@@ -43,50 +43,50 @@ public class Player : MonoBehaviour
 
     public void RemoveIntelligence()
     {
-        intelligence -= Mathf.Min(Random.value, intelligence / 2);
+        intelligence -= 1; //Mathf.Min(Random.value, intelligence / 2);
         intelligenceBar.IntelligenceBarUpdate();
     }
 
     public void AddStrength()
     {
-        strength += Mathf.Min(Random.value, strength + 2);
+        strength += 1; //Mathf.Min(Random.value, strength + 2);
         strengthBar.StrengthBarUpdate();
     }
 
     public void RemoveStrength()
     {
-        strength -= Mathf.Min(Random.value, strength / 2);
+        strength -= 1; //Mathf.Min(Random.value, strength / 2);
         strengthBar.StrengthBarUpdate();
     }
 
     public void AddCharisma()
     {
-        charisma += Mathf.Min(Random.value, charisma + 2);
+        charisma += 1; //Mathf.Min(Random.value, charisma + 2);
         charismaBar.CharismaBarUpdate();
     }
 
     public void RemoveCharisma()
     {
-        charisma -= Mathf.Min(Random.value, charisma / 2);
+        charisma -= 1; //Mathf.Min(Random.value, charisma / 2);
         charismaBar.CharismaBarUpdate();
     }
 
     public void AddMoney()
     {
-        money += Mathf.Min(Random.value, money + 2);
+        money += 1;//Mathf.Min(Random.value, money + 2);
         moneyBar.MoneyBarUpdate();
 
     }
 
     public void RemoveMoney()
     {
-        money -= Mathf.Min(Random.value, money / 2);
+        money -= 1; //Mathf.Min(Random.value, money / 2);
         moneyBar.MoneyBarUpdate();
     }
 
     public void AddAffection()
     {
-        affection += Mathf.Min(Random.value, affection + 2);
+        affection += 1;//Mathf.Min(Random.value, affection + 2);
         affectionBar.AffectionBarUpdate();
 
         if (affection >= 10)
@@ -129,7 +129,7 @@ public class Player : MonoBehaviour
 
     public void RemoveAffection()
     {
-        affection -= Mathf.Min(Random.value, affection / 2);
+        affection -= 1;//Mathf.Min(1, affection / 2);
         affectionBar.AffectionBarUpdate();
     }
     
