@@ -14,12 +14,12 @@ public class TurnHandler : MonoBehaviour
     [SerializeField] Image circleImage;
 
 
-    [SerializeField] List<Scene> dateScenes = new List<Scene>();
+    [SerializeField] List<string> dateScenes = new List<string>();
 
     int daysUntilDate = 5;
     int initialDaysUntilDate = 5;
 
-    Scene nextScene;
+    string nextScene;
 
     public static bool firstTimeOpening = true;
 
@@ -27,29 +27,34 @@ public class TurnHandler : MonoBehaviour
     {
         foreach (Button b in buttons) b.enabled = true;
 
-        daysUntilDate = initialDaysUntilDate;
+        if (daysUntilDate == 0)
+        {
+            daysUntilDate = initialDaysUntilDate;
 
+            // Regress attributes
+            Attributes.strength -= 2;
+            Attributes.strength = Mathf.Clamp(Attributes.strength, 0, 5);
+
+            Attributes.intelligence -= 2;
+            Attributes.intelligence = Mathf.Clamp(Attributes.intelligence, 0, 5);
+
+            Attributes.charisma -= 2;
+            Attributes.charisma = Mathf.Clamp(Attributes.charisma, 0, 5);
+
+            Attributes.money -= 2;
+            Attributes.money = Mathf.Clamp(Attributes.money, 0, 5);
+        }
+            
         GenerateTexts();
-
-
-        // Regress attributes
-        Attributes.strength -= 2;
-        Attributes.strength = Mathf.Clamp(Attributes.strength, 0, 5);
-
-        Attributes.intelligence -= 2;
-        Attributes.intelligence = Mathf.Clamp(Attributes.intelligence, 0, 5);
-
-        Attributes.charisma -= 2;
-        Attributes.charisma = Mathf.Clamp(Attributes.charisma, 0, 5);
-
-        Attributes.money -= 2;
-        Attributes.money = Mathf.Clamp(Attributes.money, 0, 5);
+        
 
         if (!firstTimeOpening) AdvanceDay();
 
+        firstTimeOpening = false;
+
     }
 
-    void AdvanceDay()
+    public void AdvanceDay()
     {
         daysUntilDate--;
 
@@ -82,11 +87,13 @@ public class TurnHandler : MonoBehaviour
 
         if (!firstDate)
         {
+            daysUntilDate = 5;
+            firstDate = true;
             SceneManager.LoadScene("Blake - Cafe");
         }
         else
         {
-            SceneManager.LoadScene(nextScene.ToString());
+            SceneManager.LoadScene(nextScene);
         }
 
         

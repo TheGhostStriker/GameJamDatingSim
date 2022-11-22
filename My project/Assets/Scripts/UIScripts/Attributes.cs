@@ -25,9 +25,9 @@ public class Attributes : MonoBehaviour
     private void Start()
     {
         LeanTween.value(instance.strengthBar.fillAmount, strength / 5f, 0.5f).setOnUpdate((float val) => { instance.strengthBar.fillAmount = val; }).setEase(LeanTweenType.easeInOutQuad);
-        LeanTween.value(instance.intelligenceBar.fillAmount, strength / 5f, 0.5f).setOnUpdate((float val) => { instance.intelligenceBar.fillAmount = val; }).setEase(LeanTweenType.easeInOutQuad);
-        LeanTween.value(instance.charismaBar.fillAmount, strength / 5f, 0.5f).setOnUpdate((float val) => { instance.charismaBar.fillAmount = val; }).setEase(LeanTweenType.easeInOutQuad);
-        LeanTween.value(instance.moneyBar.fillAmount, strength / 5f, 0.5f).setOnUpdate((float val) => { instance.moneyBar.fillAmount = val; }).setEase(LeanTweenType.easeInOutQuad);
+        LeanTween.value(instance.intelligenceBar.fillAmount, intelligence / 5f, 0.5f).setOnUpdate((float val) => { instance.intelligenceBar.fillAmount = val; }).setEase(LeanTweenType.easeInOutQuad);
+        LeanTween.value(instance.charismaBar.fillAmount, charisma / 5f, 0.5f).setOnUpdate((float val) => { instance.charismaBar.fillAmount = val; }).setEase(LeanTweenType.easeInOutQuad);
+        LeanTween.value(instance.moneyBar.fillAmount, money / 5f, 0.5f).setOnUpdate((float val) => { instance.moneyBar.fillAmount = val; }).setEase(LeanTweenType.easeInOutQuad);
     }
 
     public static void IncreaseStrength()

@@ -18,6 +18,9 @@ public class MoneyMiniGame : MonoBehaviour
     [SerializeField] FadeOut fadeOut;
     bool burgerFinished;
 
+
+    bool minigameFinished = false;
+
     void Start()
     {
 
@@ -29,7 +32,9 @@ public class MoneyMiniGame : MonoBehaviour
         timer -= Time.deltaTime;
         timer = Mathf.Clamp(timer, 0, 100);
         timerText.text = ((int)timer).ToString();
-        if (timer == 0)
+
+
+        if (timer == 0 && !minigameFinished)
         {
             OnFinish();
         }
@@ -66,9 +71,13 @@ public class MoneyMiniGame : MonoBehaviour
 
     void OnFinish()
     {
+        minigameFinished = true;
+
+        Attributes.IncreaseMoney();
+
         if (score > 3)
         {
-            Attributes.IncreaseMoney();
+            
             timerText.text = $"{score}!";
         }
         fadeOut.StartFadeOut();
