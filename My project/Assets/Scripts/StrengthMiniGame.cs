@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class StrengthMiniGame : MonoBehaviour
 {
     readonly WaitForEndOfFrame wait = new WaitForEndOfFrame();
     bool isGhostFading, isGreenGhostFading, active = true;
-
+    [SerializeField] UnityEvent onFinish;
+    Attributes instance;
     [SerializeField] RectTransform movingBar, sweetSpot, ghostBar, greenGhostBar, brain;
     [SerializeField] Transform shot;
     [SerializeField] TrailRenderer shotTrail;
@@ -25,7 +27,7 @@ public class StrengthMiniGame : MonoBehaviour
     [SerializeField] float ghostFadeOutSpeed = 1, currentTime;
     [SerializeField] CameraShake shake;
     float accelerationTarget, accelerationCurrent, accelerationBuildUpSpeed = .1f, accelerationAddition = .1f;
-    [SerializeField] TextMeshPro timer;
+    [SerializeField] TextMeshPro timer, score, levelUp;
 
 
 
@@ -103,7 +105,6 @@ public class StrengthMiniGame : MonoBehaviour
         if (!isGreenGhostFading)
             StartCoroutine(FadeGhost());
 
-
         IEnumerator FadeGhost()
         {
             isGreenGhostFading = true;
@@ -121,8 +122,18 @@ public class StrengthMiniGame : MonoBehaviour
 
     void Complete()
     {
-        print("Complete");
+        score.gameObject.SetActive(true);
+        score.text = $"{comboCurrent}/9";
+
+        if (comboCurrent >= 7)
+        {
+            levelUp.gameObject.SetActive(true);
+            Attributes.IncreaseIntelligence();
+        }
+
+
         active = false;
+        if (onFinish != null) onFinish.Invoke();
     }
 
     void MissSweetSpot()
@@ -140,7 +151,6 @@ public class StrengthMiniGame : MonoBehaviour
 
         if (!isGhostFading)
             StartCoroutine(FadeGhost());
-
 
         IEnumerator FadeGhost()
         {
@@ -160,7 +170,7 @@ public class StrengthMiniGame : MonoBehaviour
 
     public void TimedActivate()
     {
-
+        Invoke("Activate", 1);
     }
 
     public void Activate()

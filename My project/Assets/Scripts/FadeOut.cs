@@ -9,7 +9,6 @@ public class FadeOut : MonoBehaviour
 {
 
     WaitForEndOfFrame wait = new WaitForEndOfFrame();
-    [SerializeField] UnityEvent afterFadeOut;
     Image fader;
     [SerializeField] float speed;
 

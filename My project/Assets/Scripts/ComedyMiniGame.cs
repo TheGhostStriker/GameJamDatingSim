@@ -94,7 +94,6 @@ public class ComedyMiniGame : MonoBehaviour
         {
             if (pips[i].position.x < leftFader - 1)
             {
-                //currentStreak = 0;
                 backings[pips[i].GetComponent<ComedyLineKeeper>().lineNum].GetComponent<ComedyLineBacking>().Miss();
                 SpawnText(1);
                 DestroyPip(i);
@@ -123,7 +122,7 @@ public class ComedyMiniGame : MonoBehaviour
             {
                 charismaLevelUp.gameObject.SetActive(true);
                 statText.GetComponent<Animator>().Play("Flashing");
-                //Add charisma
+                Attributes.IncreaseCharisma();
             }
             else
             {
