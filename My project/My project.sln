@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus", "Fungus.csproj", "{24EB482B-AA61-4045-09EE-B1F924A82A55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FungusExamples", "FungusExamples.csproj", "{199C9F80-386E-5ABD-CB75-7475184F6A48}"
@@ -17,12 +18,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.LineEndingsEditor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fungus.FungusLuaEditor", "Fungus.FungusLuaEditor.csproj", "{B65CD506-C7E2-9502-08BA-89692BE00DF6}"
 EndProject
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{32C3BDE6-E125-3128-82C1-25D0441455A3}"
+EndProject
+>>>>>>> Stashed changes
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< Updated upstream
 		{24EB482B-AA61-4045-09EE-B1F924A82A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24EB482B-AA61-4045-09EE-B1F924A82A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24EB482B-AA61-4045-09EE-B1F924A82A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,10 +37,13 @@ Global
 		{199C9F80-386E-5ABD-CB75-7475184F6A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{199C9F80-386E-5ABD-CB75-7475184F6A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{199C9F80-386E-5ABD-CB75-7475184F6A48}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> Stashed changes
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C3BDE6-E125-3128-82C1-25D0441455A3}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{79B079BD-0EB1-0DD2-42FC-A70C1D2E151D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79B079BD-0EB1-0DD2-42FC-A70C1D2E151D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79B079BD-0EB1-0DD2-42FC-A70C1D2E151D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,6 +64,8 @@ Global
 		{B65CD506-C7E2-9502-08BA-89692BE00DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B65CD506-C7E2-9502-08BA-89692BE00DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B65CD506-C7E2-9502-08BA-89692BE00DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
