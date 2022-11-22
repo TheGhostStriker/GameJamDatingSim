@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Score.cs" />
-    <Compile Include="Assets\Scripts\GoToNextDay.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\Score.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\TweenPhoneInAndOut.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\GoToNextDay.cs" />
     <Compile Include="Assets\Scripts\HubWorld\UI_Hub_LocationBtn.cs" />
-    <Compile Include="Assets\Scripts\Test.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\Test.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\Player.cs" />
     <Compile Include="Assets\Art\Sprites\MiniGames\DoYouEvenLift_Minigame.cs" />
-    <Compile Include="Assets\Scripts\IntelligenceBar.cs" />
-    <Compile Include="Assets\Scripts\TweenPhoneInAndOut.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\IntelligenceBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro.cginc" />
