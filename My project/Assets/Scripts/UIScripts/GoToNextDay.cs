@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class GoToNextDay : MonoBehaviour
 {
     public int daysLeft = 0;
@@ -10,6 +10,8 @@ public class GoToNextDay : MonoBehaviour
     public bool dateHappening = false;
     public Image centralImage;
     public float fillAmountMin, fillAmountMax;
+    public GameObject finishButton;
+    public GameObject moveOnButton;
 
     public float days = 5;
     // Start is called before the first frame update
@@ -32,6 +34,7 @@ public class GoToNextDay : MonoBehaviour
         if(daysLeft <= 0)
         {
             centralImage.fillAmount -= 5f;
+            
         }
         UpdateText();
     }
@@ -41,13 +44,25 @@ public class GoToNextDay : MonoBehaviour
         countDownText.GetComponent<UnityEngine.UI.Text>().text = "DAYS LEFT: " + daysLeft;
         if(daysLeft == 0)
         {
+            finishButton.SetActive(false);
+            moveOnButton.SetActive(true);
             countDownText.GetComponent<UnityEngine.UI.Text>().text = "DATE NIGHT";
             dateHappening = true;
             if(dateHappening == true)
             {
+                
                 daysLeft = 6;
             }
         }
            
+    }
+    public void ChangeScenes(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void doExitGame()
+    {
+        Application.Quit();
     }
 }
