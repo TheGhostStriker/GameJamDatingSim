@@ -942,11 +942,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1198.615, y: 567.72595}
+  scrollPos: {x: 1227.8682, y: -431.09534}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8800001
+  zoom: 0.79000014
   scrollViewRect:
     serializedVersion: 2
     x: -810.0176
@@ -954,9 +954,9 @@ MonoBehaviour:
     width: 1939.0176
     height: 2009.5223
   selectedBlocks:
-  - {fileID: 1831099579}
+  - {fileID: 1831099707}
   selectedCommands:
-  - {fileID: 1831099582}
+  - {fileID: 1831099736}
   variables:
   - {fileID: 1831099569}
   - {fileID: 1831099662}
@@ -1130,7 +1130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 301.33295
     y: -373.95966
-    width: 113.63635
+    width: 114.55695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1159,7 +1159,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.90805
     y: -373.95975
-    width: 133.5227
+    width: 133.54428
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1188,7 +1188,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 59.8441
     y: -373.9596
-    width: 93.18181
+    width: 93.67088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1218,7 +1218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.87053
     y: -516.68884
-    width: 76.704544
+    width: 76.582275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1245,7 +1245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -45.475098
     y: -375.02325
-    width: 100.56818
+    width: 99.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1506,7 +1506,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 269.22375
     y: -206.02245
-    width: 121.5909
+    width: 123.41771
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1538,7 +1538,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 109.43007
     y: -209.02235
-    width: 129.54544
+    width: 132.91138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1568,7 +1568,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -128.7142
     y: -208.99147
-    width: 214.20453
+    width: 216.45567
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1598,7 +1598,7 @@ MonoBehaviour:
   storyText: Do you wanna join in?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1625,7 +1625,7 @@ MonoBehaviour:
   storyText: Hey you see those guys playing beach volley ball over there?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 7d967c92131fa194a895a1d6db5657fb, type: 3}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1651,7 +1651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 123.86296
     y: -281.15625
-    width: 103.40909
+    width: 105.6962
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1688,7 +1688,7 @@ MonoBehaviour:
   storyText: Much appreciated
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   storyText: Hahaha ya fuckin goofy goober
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1742,7 +1742,7 @@ MonoBehaviour:
   storyText: Is that an insult?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
+  portrait: {fileID: 21300000, guid: b08623c1746468747bae32041292338b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1769,7 +1769,7 @@ MonoBehaviour:
   storyText: ???
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1814,7 +1814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.30825
     y: -127.54816
-    width: 142.04544
+    width: 144.30377
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1893,7 +1893,7 @@ MonoBehaviour:
   storyText: Damn they never stood a chance!
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   storyText: Sorry for missing that recieve there at the end hahaha. That's my bad
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1947,7 +1947,7 @@ MonoBehaviour:
   storyText: 'Damn that was a close one! '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 7d967c92131fa194a895a1d6db5657fb, type: 3}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   storyText: Honestly mid as fuck in my opinion.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
+  portrait: {fileID: 21300000, guid: b08623c1746468747bae32041292338b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2027,7 +2027,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.84517
     y: -449.0987
-    width: 74.431816
+    width: 74.68354
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2061,7 +2061,7 @@ MonoBehaviour:
   storyText: God you're so boring.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2088,7 +2088,7 @@ MonoBehaviour:
   storyText: Actually?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: fbf71441a377e3e45a86f55afa58f6a2, type: 3}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   storyText: Hey random question but what's your favourite animal?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2142,7 +2142,7 @@ MonoBehaviour:
   storyText: ...
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2231,7 +2231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179.53316
     y: -60.53783
-    width: 91.477264
+    width: 91.77214
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2262,7 +2262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 85.71878
     y: -59.506886
-    width: 89.204544
+    width: 87.97468
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2290,7 +2290,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 279.65668
     y: -59.53783
-    width: 77.840904
+    width: 77.8481
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2319,7 +2319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -10.157471
     y: -59.506893
-    width: 89.77272
+    width: 89.24049
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2451,7 +2451,7 @@ MonoBehaviour:
   storyText: There's no way.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2497,7 +2497,7 @@ MonoBehaviour:
   storyText: Mmmm, gotta say. Not my favourite.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2524,7 +2524,7 @@ MonoBehaviour:
   storyText: I like that...
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2551,7 +2551,7 @@ MonoBehaviour:
   storyText: ...
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2578,7 +2578,7 @@ MonoBehaviour:
   storyText: Kinda a basic bitch answer man
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2605,7 +2605,7 @@ MonoBehaviour:
   storyText: I think.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b08623c1746468747bae32041292338b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2632,7 +2632,7 @@ MonoBehaviour:
   storyText: Just a little bit disgusted but I think I won't be sick.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2659,7 +2659,7 @@ MonoBehaviour:
   storyText: What?? Lizards are literally satan spawn what are you talking about?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2983,7 +2983,7 @@ MonoBehaviour:
     me thinking.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3009,7 +3009,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -210.61882
     y: 75.8913
-    width: 86.36363
+    width: 86.708855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3041,7 +3041,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -440.37976
     y: 133.56664
-    width: 158.5227
+    width: 160.75948
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3071,7 +3071,7 @@ MonoBehaviour:
   storyText: Do you workout or something? Maybe sports?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3097,7 +3097,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -256.87463
     y: 134.5976
-    width: 179.54544
+    width: 179.1139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3220,7 +3220,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -49.65802
     y: 134.59756
-    width: 128.97726
+    width: 131.64555
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3334,7 +3334,7 @@ MonoBehaviour:
   storyText: Humble. I can respect that.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3361,7 +3361,7 @@ MonoBehaviour:
   storyText: I dunnoooo, all I can say is some weights wouldn't hurt.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3388,7 +3388,7 @@ MonoBehaviour:
   storyText: I can tell.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3693,7 +3693,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 103.043945
     y: 28.514862
-    width: 147.72726
+    width: 150.6329
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3964,7 +3964,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 112.65216
     y: 261.54367
-    width: 130.68181
+    width: 131.64555
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3999,7 +3999,7 @@ MonoBehaviour:
     one.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4104,7 +4104,7 @@ MonoBehaviour:
   storyText: If you were to have kids one day, how many kids would be ideal?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4155,7 +4155,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 15.987671
     y: 357.65802
-    width: 70.454544
+    width: 70.88607
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4361,7 +4361,7 @@ MonoBehaviour:
   storyText: That's a pretty perfect number I'd say.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4e95225461614504f829bb8a71fae781, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4389,7 +4389,7 @@ MonoBehaviour:
     a {i}lot{/i} more you know.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4417,7 +4417,7 @@ MonoBehaviour:
     egg sac? You'd have to cultivate a whole another cluster!
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4444,7 +4444,7 @@ MonoBehaviour:
   storyText: Oh, nothing. Don't worry about that.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4471,7 +4471,7 @@ MonoBehaviour:
   storyText: What do I mean by that?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4498,7 +4498,7 @@ MonoBehaviour:
   storyText: Literally despicable. I think I hate that if I'm honest.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b08623c1746468747bae32041292338b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5351,7 +5351,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 11.422913
     y: 480.24512
-    width: 123.863625
+    width: 124.68353
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5379,7 +5379,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 260.9229
     y: 494.74512
-    width: 101.13635
+    width: 101.89873
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5409,7 +5409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -156.57709
     y: 476.24512
-    width: 109.0909
+    width: 109.49366
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5829,7 +5829,7 @@ MonoBehaviour:
   storyText: Farewell {$CharName}.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5855,7 +5855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.422913
     y: 620.2451
-    width: 97.15909
+    width: 98.10126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5885,7 +5885,7 @@ MonoBehaviour:
   storyText: You should probably try harder next time if you want more next times.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5912,7 +5912,7 @@ MonoBehaviour:
   storyText: Yeah, nah ummm.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5939,7 +5939,7 @@ MonoBehaviour:
   storyText: 'Kinda a shit day if I''m honest. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b08623c1746468747bae32041292338b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5967,7 +5967,7 @@ MonoBehaviour:
     did pretty well. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 1820b2a434a5e084e990877ddb4901bb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5994,7 +5994,7 @@ MonoBehaviour:
   storyText: 'Looking forward to the next one! '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6021,7 +6021,7 @@ MonoBehaviour:
   storyText: 'I had a great time today! '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6886,7 +6886,7 @@ MonoBehaviour:
       intValue: 0
       boolValue: 0
       floatValue: 0
-      stringValue: Clinton
+      stringValue: Blake - Hub
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}

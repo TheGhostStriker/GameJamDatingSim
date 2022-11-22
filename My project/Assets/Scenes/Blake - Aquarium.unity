@@ -1017,11 +1017,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 912.3894, y: 721.05554}
+  scrollPos: {x: 786.101, y: -193.5474}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -810.0176
@@ -1029,9 +1029,9 @@ MonoBehaviour:
     width: 1939.0176
     height: 2009.5223
   selectedBlocks:
-  - {fileID: 1831099608}
+  - {fileID: 1831099689}
   selectedCommands:
-  - {fileID: 1831099600}
+  - {fileID: 1831099721}
   variables:
   - {fileID: 1831099569}
   - {fileID: 1831099662}
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 116.086334
     y: -396.84073
-    width: 121.9512
+    width: 123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1176,7 +1176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.173836
     y: -400.31766
-    width: 109.14633
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1205,7 +1205,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 268.62064
     y: -399.29636
-    width: 115.24389
+    width: 116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1234,7 +1234,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.87053
     y: -516.68884
-    width: 77.43902
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1405,7 +1405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130.54855
     y: -341.102
-    width: 93.29268
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 120.87655
     y: -275.19635
-    width: 107.31706
+    width: 107
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1574,7 +1574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -5.7338095
     y: -207.64735
-    width: 98.78048
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1622,7 +1622,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.03445
     y: -207.41573
-    width: 88.41463
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1651,7 +1651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130.54648
     y: -208.85472
-    width: 92.073166
+    width: 93
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2001,7 +2001,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.84517
     y: -449.0987
-    width: 74.99999
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2032,7 +2032,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 138.02856
     y: -137.26419
-    width: 76.82926
+    width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2066,7 +2066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -37.907608
     y: -68.24298
-    width: 154.87802
+    width: 157
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2440,7 +2440,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 237.78055
     y: -66.457214
-    width: 95.7317
+    width: 97
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2548,7 +2548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -33.21945
     y: 11.542786
-    width: 146.9512
+    width: 149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2648,7 +2648,7 @@ MonoBehaviour:
   storyText: 'But do you know how many years ago our supposed fish ancestors lived? '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2676,7 +2676,7 @@ MonoBehaviour:
     fish.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7bb68aed09b77884bb03e383240c11f2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2703,7 +2703,7 @@ MonoBehaviour:
   storyText: Actually, I got a trivia question for you.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2731,7 +2731,7 @@ MonoBehaviour:
     I would do a bit of reading you know?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2758,7 +2758,7 @@ MonoBehaviour:
   storyText: Hey did you do as much research about aquarium trivia as me?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2784,7 +2784,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 94.78055
     y: 82.542786
-    width: 168.29266
+    width: 169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2937,7 +2937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 324.39917
     y: 178.1508
-    width: 123.78047
+    width: 125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2966,7 +2966,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 181.09996
     y: 179.18181
-    width: 137.80487
+    width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2996,7 +2996,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.770157
     y: 179.24362
-    width: 136.58536
+    width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3025,7 +3025,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -118.80707
     y: 179.65605
-    width: 143.29266
+    width: 145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3347,7 +3347,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.74376
     y: 275.76556
-    width: 146.9512
+    width: 149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3468,7 +3468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 246.17111
     y: 339.4851
-    width: 65.85365
+    width: 66
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3499,7 +3499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 43.09671
     y: 341.2779
-    width: 70.731705
+    width: 71
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3671,7 +3671,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 94.68512
     y: 434.0061
-    width: 87.80487
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3716,7 +3716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -244.75795
     y: 438.0876
-    width: 85.9756
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3745,7 +3745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -143.7578
     y: 437.0877
-    width: 107.92682
+    width: 109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3774,7 +3774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.2306824
     y: 433.09674
-    width: 67.68292
+    width: 68
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3904,7 +3904,7 @@ MonoBehaviour:
   storyText: What do you think is the most important thing in life?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4026,7 +4026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 12.766968
     y: 526.8341
-    width: 167.68289
+    width: 171
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4207,7 +4207,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 7cb566dcb41180740be0fcaa97e81abf, type: 3}
+  portrait: {fileID: 21300000, guid: 4f4c17cf806ae504e87aebd75a292cbb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4233,7 +4233,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -202.51659
     y: 530.57947
-    width: 117.682915
+    width: 119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4261,7 +4261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.467316
     y: 656.4332
-    width: 102.43901
+    width: 104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4317,7 +4317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.20694
     y: 594.4394
-    width: 98.78048
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4505,7 +4505,7 @@ MonoBehaviour:
   storyText: 'Hey, I had a really good date with you today. I''m glad we came. '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 21300000, guid: 7c1252fd030d5fa4084353f75b4ea5e9, type: 3}
+  portrait: {fileID: 21300000, guid: d3131c18e8a36374a82978cfeeda7821, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4531,7 +4531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -150.52873
     y: 594.7661
-    width: 106.707306
+    width: 108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5363,7 +5363,7 @@ MonoBehaviour:
       intValue: 0
       boolValue: 0
       floatValue: 0
-      stringValue: Clinton
+      stringValue: Blake - Hub
       colorValue: {r: 0, g: 0, b: 0, a: 0}
       gameObjectValue: {fileID: 0}
       materialValue: {fileID: 0}
@@ -5409,6 +5409,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowChart: {fileID: 1831099568}
+--- !u!1 &2067117679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2067117681}
+  - component: {fileID: 2067117680}
+  m_Layer: 0
+  m_Name: Aquarium Scene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2067117680
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067117679}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8339e29dbefa46544ae6715428d5620d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 21, y: 15.001465}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2067117681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067117679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.76, z: 0}
+  m_LocalScale: {x: 0.8580629, y: 0.71680844, z: 0.71680844}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &2082548125 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 60195360913281896, guid: f91118c89883dd343974a611aa7e5015, type: 3}
