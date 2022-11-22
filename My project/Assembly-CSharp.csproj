@@ -57,34 +57,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UIScripts\Score.cs" />
-    <Compile Include="Assets\Scripts\Fish_MiniGame.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\LoadSceneButton.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\AffectionBar.cs" />
-    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\HubWorld\UI_Hub_LocationBtn.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\Player.cs" />
+    <Compile Include="Assets\Art\Sprites\MiniGames\DoYouEvenLift_Minigame.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\IntelligenceBar.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\LoadSceneButton.cs" />
+    <Compile Include="Assets\Scripts\Fish_MiniGame.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\CreditScene.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\IntroductionSequence.cs" />
     <Compile Include="Assets\Scripts\UIScripts\IconBounceTween.cs" />
     <Compile Include="Assets\Scripts\UIScripts\Attributes.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\IntroductionSequence.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\Player.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\CreditScene.cs" />
-    <Compile Include="Assets\Art\Sprites\MiniGames\DoYouEvenLift_Minigame.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\AffectionBar.cs" />
     <Compile Include="Assets\Scripts\UIScripts\AffectAffection.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\IntelligenceBar.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\ComedyLineKeeper.cs" />
     <Compile Include="Assets\Scripts\ComedyMiniGame.cs" />
     <Compile Include="Assets\Scripts\MoneyMiniGame.cs" />
     <Compile Include="Assets\Scripts\ComedyTextPopup.cs" />
-    <Compile Include="Assets\Scripts\ComedyLineBacking.cs" />
-    <Compile Include="Assets\Scripts\StrengthMiniGame.cs" />
-    <Compile Include="Assets\Scripts\ShotTrail.cs" />
-    <Compile Include="Assets\Scripts\CameraShake.cs" />
-    <Compile Include="Assets\Scripts\FadeIn.cs" />
-    <Compile Include="Assets\Scripts\FadeOut.cs" />
     <Compile Include="Assets\Scripts\UIScripts\TurnHandler.cs" />
     <Compile Include="Assets\Scripts\Text.cs" />
+    <Compile Include="Assets\Scripts\FadeOut.cs" />
+    <Compile Include="Assets\Scripts\ComedyLineBacking.cs" />
     <Compile Include="Assets\Scripts\UIScripts\Phone.cs" />
-    <Compile Include="Assets\Scripts\UIScripts\TextMessage.cs" />
+    <Compile Include="Assets\Scripts\StrengthMiniGame.cs" />
+    <Compile Include="Assets\Scripts\ShotTrail.cs" />
+    <Compile Include="Assets\Scripts\FadeIn.cs" />
     <Compile Include="Assets\Scripts\UIScripts\SetFungusVariables.cs" />
+    <Compile Include="Assets\Scripts\UIScripts\TextMessage.cs" />
+    <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\MiniGameBackgroundToggle.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -770,13 +770,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Fungus.csproj">
-      <Project>{24EB482B-AA61-4045-09EE-B1F924A82A55}</Project>
-      <Name>Fungus</Name>
+    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
+      <Project>{B65CD506-C7E2-9502-08BA-89692BE00DF6}</Project>
+      <Name>Fungus.FungusLuaEditor</Name>
     </ProjectReference>
     <ProjectReference Include="FungusEditor.csproj">
       <Project>{B3F1895D-2DCD-E0C2-289F-EB6FCA2BB5AD}</Project>
       <Name>FungusEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
+      <Project>{A51A4A21-25EC-165A-8767-417B9145F70C}</Project>
+      <Name>Fungus.LineEndingsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Fungus.csproj">
+      <Project>{24EB482B-AA61-4045-09EE-B1F924A82A55}</Project>
+      <Name>Fungus</Name>
     </ProjectReference>
     <ProjectReference Include="Fungus.UsfxrEditor.csproj">
       <Project>{79B079BD-0EB1-0DD2-42FC-A70C1D2E151D}</Project>
@@ -785,14 +793,6 @@
     <ProjectReference Include="Fungus.FungusLuaJSONCheckerEditor.csproj">
       <Project>{C4D95522-09C7-E514-852B-7DDF9383531F}</Project>
       <Name>Fungus.FungusLuaJSONCheckerEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.LineEndingsEditor.csproj">
-      <Project>{A51A4A21-25EC-165A-8767-417B9145F70C}</Project>
-      <Name>Fungus.LineEndingsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Fungus.FungusLuaEditor.csproj">
-      <Project>{B65CD506-C7E2-9502-08BA-89692BE00DF6}</Project>
-      <Name>Fungus.FungusLuaEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
