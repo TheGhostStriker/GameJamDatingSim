@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
 
@@ -15,19 +15,29 @@ public class Player : MonoBehaviour
     public IntelligenceBar charismaBar;
     public IntelligenceBar moneyBar;
     public IntelligenceBar affectionBar;
+    public bool isAffectionEnough = false;
+    public bool doesSheLoveMe = false;
+    public bool doesSheHateMe = true;
+
+    public GameObject shootyourShotButton;
+    public GameObject failureButton;
+    public GameObject guaranteedWaifuButton;
     // Start is called before the first frame update
     void Start()
     {
-        
+        failureButton.SetActive(true);
     }
 
-    // Update is called once per frame
    
+
+    // Update is called once per frame
+
 
     public void AddIntelligence()
     {
         intelligence += Mathf.Min(Random.value, intelligence + 2);
         intelligenceBar.IntelligenceBarUpdate();
+        
         
     }
 
@@ -78,6 +88,43 @@ public class Player : MonoBehaviour
     {
         affection += Mathf.Min(Random.value, affection + 2);
         affectionBar.AffectionBarUpdate();
+
+        if (affection >= 10)
+        {
+            isAffectionEnough = true;
+            doesSheHateMe = false;
+            doesSheLoveMe = false;
+        }
+        if(isAffectionEnough == true)
+        {
+            shootyourShotButton.SetActive(true);
+            failureButton.SetActive(false);
+            guaranteedWaifuButton.SetActive(false);
+        }
+        if(affection <= 5)
+        {
+            doesSheHateMe = true;
+            doesSheLoveMe = false;
+            isAffectionEnough = false;
+        }
+        if(affection >= 18)
+        {
+            doesSheHateMe = false;
+            doesSheLoveMe = true;
+            isAffectionEnough = false;
+        }
+        if(doesSheLoveMe == true)
+        {
+            shootyourShotButton.SetActive(false);
+            guaranteedWaifuButton.SetActive(true);
+            failureButton.SetActive(false);
+        }
+        if(doesSheHateMe == true)
+        {
+            shootyourShotButton.SetActive(false);
+            guaranteedWaifuButton.SetActive(false);
+            failureButton.SetActive(true);
+        }
     }
 
     public void RemoveAffection()
@@ -134,5 +181,49 @@ public class Player : MonoBehaviour
         {
             RemoveAffection();
         }
+        if(intelligence >= 10)
+        {
+            intelligence = 10;
+        }
+        if(intelligence <= 1)
+        {
+            intelligence = 1;
+        }
+        if (charisma >= 10)
+        {
+            charisma = 10;
+        }
+        if (charisma <= 1)
+        {
+            charisma = 1;
+        }
+        if (strength >= 10)
+        {
+            strength = 10;
+        }
+        if (strength <= 1)
+        {
+           strength = 1;
+        }
+        if (money >= 10)
+        {
+           money = 10;
+        }
+        if (money <= 1)
+        {
+            money = 1;
+        }
+        if(affection >= 20)
+        {
+            affection = 20;
+        }
+        if(affection <= 1)
+        {
+            affection = 1;
+        }
+        
+
+
+
     }
 }
