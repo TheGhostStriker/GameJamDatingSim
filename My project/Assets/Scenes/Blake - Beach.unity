@@ -805,11 +805,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 803.1748, y: 355.38214}
+  scrollPos: {x: 795.39746, y: 679.55884}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -810.0176
@@ -817,8 +817,9 @@ MonoBehaviour:
     width: 1939.0176
     height: 2009.5223
   selectedBlocks:
-  - {fileID: 1831099601}
-  selectedCommands: []
+  - {fileID: 1831099576}
+  selectedCommands:
+  - {fileID: 1831099597}
   variables:
   - {fileID: 1831099569}
   - {fileID: 1831099662}
@@ -991,7 +992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 301.33295
     y: -373.95966
-    width: 114.3617
+    width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1019,7 +1020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.90805
     y: -373.95975
-    width: 134.04254
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1047,7 +1048,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 59.8441
     y: -373.9596
-    width: 93.61702
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1076,7 +1077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.87053
     y: -516.68884
-    width: 77.65958
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1103,7 +1104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -45.475098
     y: -375.02325
-    width: 101.59574
+    width: 101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1132,7 +1133,7 @@ MonoBehaviour:
   storyText: Sooo, what do you think?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1178,7 +1179,7 @@ MonoBehaviour:
   storyText: Haaaaa, yeah I should've seen that coming
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1363,7 +1364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 269.22375
     y: -206.02245
-    width: 123.40425
+    width: 123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1394,7 +1395,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 109.43007
     y: -209.02235
-    width: 132.44681
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1423,7 +1424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -128.7142
     y: -208.99147
-    width: 217.02127
+    width: 216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1452,7 +1453,7 @@ MonoBehaviour:
   storyText: Do you wanna join in?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1479,7 +1480,7 @@ MonoBehaviour:
   storyText: Hey you see those guys playing beach volley ball over there?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7d967c92131fa194a895a1d6db5657fb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1505,7 +1506,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 123.86296
     y: -281.15625
-    width: 105.319145
+    width: 105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1542,7 +1543,7 @@ MonoBehaviour:
   storyText: Much appreciated
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1596,7 +1597,7 @@ MonoBehaviour:
   storyText: Is that an insult?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1668,7 +1669,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.30825
     y: -127.54816
-    width: 144.68085
+    width: 144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1702,7 +1703,7 @@ MonoBehaviour:
   storyText: Damn they never stood a chance!
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4af3a14777a9fcf4181d35bd3c058b79, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1729,7 +1730,7 @@ MonoBehaviour:
   storyText: Sorry for missing that recieve there at the end hahaha. That's my bad
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1756,7 +1757,7 @@ MonoBehaviour:
   storyText: 'Damn that was a close one! '
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7d967c92131fa194a895a1d6db5657fb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1783,7 +1784,7 @@ MonoBehaviour:
   storyText: Honestly mid as fuck in my opinion.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1836,7 +1837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.84517
     y: -449.0987
-    width: 75.53191
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1870,7 +1871,7 @@ MonoBehaviour:
   storyText: God you're so boring.
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e97919bdcb4462b449dd671778b74800, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1897,7 +1898,7 @@ MonoBehaviour:
   storyText: Actually?
   description: 
   character: {fileID: 318889166}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: fbf71441a377e3e45a86f55afa58f6a2, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2040,7 +2041,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179.53316
     y: -60.53783
-    width: 92.02127
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2070,7 +2071,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 85.71878
     y: -59.506886
-    width: 88.82979
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2098,7 +2099,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 279.65668
     y: -59.53783
-    width: 78.19149
+    width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2126,7 +2127,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -10.157471
     y: -59.506893
-    width: 89.893616
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2815,7 +2816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -210.61882
     y: 75.8913
-    width: 87.23404
+    width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2847,7 +2848,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -440.37976
     y: 133.56664
-    width: 161.70212
+    width: 160
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2902,7 +2903,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -256.87463
     y: 134.5976
-    width: 181.38297
+    width: 181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3024,7 +3025,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -49.65802
     y: 134.59756
-    width: 131.91489
+    width: 131
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3767,7 +3768,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 112.65216
     y: 261.54367
-    width: 131.91489
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3958,7 +3959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 15.987671
     y: 357.65802
-    width: 70.74468
+    width: 72
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5150,7 +5151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 11.422913
     y: 480.24512
-    width: 125.53191
+    width: 125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5178,7 +5179,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 260.9229
     y: 494.74512
-    width: 102.127655
+    width: 102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5208,7 +5209,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -156.57709
     y: 476.24512
-    width: 110.106384
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5654,7 +5655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.422913
     y: 620.2451
-    width: 98.40425
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5891,6 +5892,88 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!1 &1973938971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1973938973}
+  - component: {fileID: 1973938972}
+  m_Layer: 0
+  m_Name: Beach Scene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1973938972
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973938971}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: a8d340889833a054f83925d19ec628a4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1973938973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973938971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 0.95, y: 0.95, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2142927451
 GameObject:
   m_ObjectHideFlags: 1
