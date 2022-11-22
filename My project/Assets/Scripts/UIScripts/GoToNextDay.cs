@@ -8,6 +8,10 @@ public class GoToNextDay : MonoBehaviour
     public int daysLeft = 0;
     public Text countDownText;
     public bool dateHappening = false;
+    public Image centralImage;
+    public float fillAmountMin, fillAmountMax;
+
+    public float days = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +25,14 @@ public class GoToNextDay : MonoBehaviour
         
     }
 
-    public void OnButtonPressed(int days)
+    public void OnButtonPressed()
     {
-        daysLeft -= days;
+        daysLeft -= 1;
+        centralImage.fillAmount += 1f / days;
+        if(daysLeft == 0)
+        {
+            centralImage.fillAmount -= 4f;
+        }
         UpdateText();
     }
 
@@ -36,7 +45,7 @@ public class GoToNextDay : MonoBehaviour
             dateHappening = true;
             if(dateHappening == true)
             {
-                daysLeft = 8;
+                daysLeft = 6;
             }
         }
            
