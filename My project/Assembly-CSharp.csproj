@@ -56,14 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-    <Compile Include="Assets\Scripts\Test.cs" />
-=======
     <Compile Include="Assets\Scripts\IntelligenceBar.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\GoToNextDay.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
->>>>>>> Stashed changes
+    <Compile Include="Assets\Scripts\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -748,7 +745,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
     <ProjectReference Include="Fungus.csproj">
       <Project>{24EB482B-AA61-4045-09EE-B1F924A82A55}</Project>
       <Name>Fungus</Name>
@@ -773,12 +769,6 @@
       <Project>{79B079BD-0EB1-0DD2-42FC-A70C1D2E151D}</Project>
       <Name>Fungus.UsfxrEditor</Name>
     </ProjectReference>
-    <ProjectReference Include="FungusExamples.csproj">
-      <Project>{199C9F80-386E-5ABD-CB75-7475184F6A48}</Project>
-      <Name>FungusExamples</Name>
-    </ProjectReference>
-=======
->>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
