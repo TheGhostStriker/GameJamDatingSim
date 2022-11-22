@@ -32,6 +32,7 @@ public class GoToNextDay : MonoBehaviour
         countDownText.GetComponent<UnityEngine.UI.Text>().text = "DAYS LEFT: " + daysLeft;
         if(daysLeft == 0)
         {
+            countDownText.GetComponent<UnityEngine.UI.Text>().text = "DATE NIGHT";
             dateHappening = true;
             if(dateHappening == true)
             {
