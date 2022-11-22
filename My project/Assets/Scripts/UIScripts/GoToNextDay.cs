@@ -29,9 +29,9 @@ public class GoToNextDay : MonoBehaviour
     {
         daysLeft -= 1;
         centralImage.fillAmount += 1f / days;
-        if(daysLeft == 0)
+        if(daysLeft <= 0)
         {
-            centralImage.fillAmount -= 4f;
+            centralImage.fillAmount -= 5f;
         }
         UpdateText();
     }
