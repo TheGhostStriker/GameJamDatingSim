@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: e7efd31bdf1332645aad7ec8c68d1ab8
   - enabled: 1
     path: Assets/Scenes/CreditsScene.unity
     guid: 72ee42d6df2eb3c4cbf3373d6db4e9d3
+  - enabled: 1
+    path: Assets/Scenes/MinigameMoney.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MinigameCharisma.unity
+    guid: 40f8fca445c4f964c838da72669fdbf0
+  - enabled: 1
+    path: Assets/Scenes/MinigameIntelligence.unity
+    guid: 26e9fd90f23e4b745833c8d6a292a1db
   m_configObjects: {}
