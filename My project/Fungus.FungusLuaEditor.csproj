@@ -56,16 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaStoreEditor.cs" />
-    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaUtilsEditor.cs" />
-    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\DropDownControl.cs" />
-    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\MenuItems.cs" />
-    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\ExecuteHandlerEditor.cs" />
-    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaScriptEditor.cs" />
-    <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaBindingsEditor.cs" />
+    <Compile Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaStoreEditor.cs" />
+    <Compile Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaUtilsEditor.cs" />
+    <Compile Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\DropDownControl.cs" />
+    <Compile Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\MenuItems.cs" />
+    <Compile Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\ExecuteHandlerEditor.cs" />
+    <Compile Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaScriptEditor.cs" />
+    <Compile Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaBindingsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\Fungus.FungusLuaEditor.asmdef" />
+    <None Include="Assets\ThirdParty\Fungus\Thirdparty\FungusLua\Scripts\Editor\Fungus.FungusLuaEditor.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
