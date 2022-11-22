@@ -1202,7 +1202,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onFinish:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1407983284}
+        m_TargetAssemblyTypeName: FadeOut, Assembly-CSharp
+        m_MethodName: StartFadeOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   movingBar: {fileID: 1035542221484263954}
   sweetSpot: {fileID: 1035542221395471744}
   ghostBar: {fileID: 1035542220848833077}
