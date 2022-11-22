@@ -1713,7 +1713,7 @@ MonoBehaviour:
   moneyBarImage: {fileID: 1688217880}
   affectionBarImage: {fileID: 46397320}
   player: {fileID: 598913986}
-  updateTween: 13
+  updateTween: 3
 --- !u!1 &791939829
 GameObject:
   m_ObjectHideFlags: 0
