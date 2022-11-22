@@ -34,10 +34,12 @@ public class StringOfMessages : MonoBehaviour
 
     public void DisplayNext()
     {
+        int index = Random.Range(0, texts.Length);
+
+        messageText.text = texts[index];
+
         
-        
-            messageIndex = messageIndex  < texts.Length - 1 ? messageIndex + 1 : 0;
-            DisplayText(messageIndex);
+         
         
     }
 
